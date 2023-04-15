@@ -1,0 +1,97 @@
+@charset "ISO-8859-1";
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #eceffc;
+}
+
+/* Fieldset and legend*/
+fieldset{
+	margin: 2em 0;
+	padding: 1em 2em;
+	border: medium 10px;
+	border-radius: 6px;
+	min-width: 100px;
+	background: linear gradient;
+}
+legend {
+	font-size: 2em;
+	font-family:serif;
+	padding: 50px;
+	color:white;
+	font-family: 'Ariel';
+}
+
+.register {
+  padding: 50px 40px;
+  color: white;
+  background: linear gradient;
+  border-radius: 10px;
+  font-family: 'Ariel';
+}
+.login-form {
+  --input-default-border-color: white;
+  --input-border-bottom-color: white;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 40px;
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0.4px 0.4px rgba(128, 128, 128, 0.109),
+    0 1px 1px rgba(128, 128, 128, 0.155),
+    0 2.1px 2.1px rgba(128, 128, 128, 0.195),
+    0 4.4px 4.4px rgba(128, 128, 128, 0.241),
+    0 12px 12px rgba(128, 128, 128, 0.35);
+    
+
+}
+.login{
+  padding: 50px 40px;
+  color: white;
+  background: linear gradient;
+  border-radius: 10px;
+}
+
+input {
+    margin: 0 0 24px 0;
+}
+input[type="radio"]{
+	margin-left: 0.5em;
+	margin-right: 0;
+	
+}
+input[type="submit"]{
+	border-radius: 6px;
+	background-color: lime;
+	font-size: 17px;
+	font-family: 'Ariel';
+    justify-content: center;
+
+}
+#textBox{
+	font-size: 14px;
+	font-family: 'Ariel';
+}
+label{
+	color:white;
+	font-family: 'Ariel';
+}
+textarea {
+	min-height: 8em;
+	min-width: 100%;
+}
+a{
+	color: red;
+}
+
+
+  
+  
+
+
+
